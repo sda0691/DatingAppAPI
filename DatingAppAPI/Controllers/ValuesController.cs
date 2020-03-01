@@ -22,6 +22,7 @@ namespace DatingAppAPI.Controllers
         }
 
         // GET api/values
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> Get() // IActionResult return hppt response with ok code
         {
